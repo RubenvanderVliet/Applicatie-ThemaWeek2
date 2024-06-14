@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     const transfers = [
-      { club: 'Barcelona', badge: '/img/FcBarcelona.png', in: ['Messi', 'Neymar'], out: ['Griezmann', 'Dembele'] },
-      { club: 'Bayern Munich', badge: '/img/FcBayernMunchen.png', in: ['Haaland', 'Upamecano'], out: ['Lewandowski', 'Kimmich'] },
-      { club: 'Manchester United', badge: '/img/ManchesterUnited.png', in: ['Sancho', 'Varane'], out: ['Pogba', 'Rashford'] },
-      { club: 'AC Milan', badge: '/img/AcM.png', in: ['Tomori', 'Giroud'], out: ['Donnarumma', 'Ibrahimovic'] },
-      { club: 'Manchester City', badge: '/img/mcity.png', in: ['Grealish', 'Kane'], out: ['Sterling', 'Aguero'] },
-      { club: 'Real Madrid', badge: '/img/rmadrid.png', in: ['Mbappe', 'Alaba'], out: ['Benzema', 'Varane'] },
-      { club: 'Liverpool', badge: '/img/liverpool.png', in: ['Konate', 'Salah'], out: ['Wijnaldum', 'Firmino'] },
-      { club: 'PSG', badge: '/img/PSG.png', in: ['Yoro', 'Oshimen'], out: ['Mbappe', 'Donnarumma'] },
+      { club: 'Barcelona', badge: 'img/FcBarcelona.png', in: ['Messi', 'Neymar'], out: ['Griezmann', 'Dembele'] },
+      { club: 'Bayern Munich', badge: 'img/FcBayernMunchen.png', in: ['Haaland', 'Upamecano'], out: ['Lewandowski', 'Kimmich'] },
+      { club: 'Manchester United', badge: 'img/ManchesterUnited.png', in: ['Sancho', 'Varane'], out: ['Pogba', 'Rashford'] },
+      { club: 'AC Milan', badge: 'img/AcM.png', in: ['Tomori', 'Giroud'], out: ['Donnarumma', 'Ibrahimovic'] },
+      { club: 'Manchester City', badge: 'img/mcity.png', in: ['Grealish', 'Kane'], out: ['Sterling', 'Aguero'] },
+      { club: 'Real Madrid', badge: 'img/rmadrid.png', in: ['Mbappe', 'Alaba'], out: ['Benzema', 'Varane'] },
+      { club: 'Liverpool', badge: 'img/liverpool.png', in: ['Konate', 'Salah'], out: ['Wijnaldum', 'Firmino'] },
+      { club: 'PSG', badge: 'img/PSG.png', in: ['Yoro', 'Oshimen'], out: ['Mbappe', 'Donnarumma'] },
   
     ]
   
