@@ -1,3 +1,5 @@
+/* Default styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -45,5 +47,33 @@ body {
 }
 
 .back-button:hover {
-  background-color: grey;
+  background-color: #606060;
+}
+
+/* Responsive adjustments */
+
+@media only screen and (max-width: 768px) {
+  /* For tablets and mobiles */
+  .main-about {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .back-button {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* For mobiles */
+  .main-about {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  .back-button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
 }
