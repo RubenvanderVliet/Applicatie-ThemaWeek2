@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const transfers = [
-      { club: 'Barcelona', badge: 'img/FcBarcelona.png', in: ['Messi', 'Neymar'], out: ['Griezmann', 'Dembele'] },
-      { club: 'Bayern Munich', badge: 'img/FcBayernMunchen.png', in: ['Haaland', 'Upamecano'], out: ['Lewandowski', 'Kimmich'] },
+      { club: 'Barcelona', badge: 'img/FCBarcelona.png', in: ['Messi', 'Neymar'], out: ['Griezmann', 'Dembele'] },
+      { club: 'Bayern Munich', badge: 'img/FCBayernMunchen.png', in: ['Haaland', 'Upamecano'], out: ['Lewandowski', 'Kimmich'] },
       { club: 'Manchester United', badge: 'img/ManU.png', in: ['Sancho', 'Varane'], out: ['Pogba', 'Rashford'] },
       { club: 'AC Milan', badge: 'img/AcM.png', in: ['Tomori', 'Giroud'], out: ['Donnarumma', 'Ibrahimovic'] },
       { club: 'Manchester City', badge: 'img/mcity.png', in: ['Grealish', 'Kane'], out: ['Sterling', 'Aguero'] },
