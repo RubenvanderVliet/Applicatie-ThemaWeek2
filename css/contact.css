@@ -1,33 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('../img/contact.jpg') center center fixed;
-    background-size: cover;
-    color: white;
-  }
-  
-  .main-about {
-    text-align: center;
-    grid-area: main;
-    font-size: 24px; /* Set the font size to 24 pixels */
-    line-height: 1.6; /* Adjust line height for better readability */
-    font-weight: bold; /* Set font weight to bold for emphasis */
-    letter-spacing: 1px; /* Add a slight letter spacing for better legibility */
-  }
-  
-  .hd-about {
-    text-align: center;
-    grid-area: header;
-  }
-  
-  .grid-container {
-    display: grid;
-    grid-template-areas:
-      'header'
-      'main'
-      'footer';
-    color: white;
-    min-height: 100vh;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../img/contact.jpg') center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.main-about {
+  text-align: center;
+  grid-area: main;
+  font-size: 24px;
+  line-height: 1.6;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hd-about {
+  text-align: center;
+  grid-area: header;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main';
+  color: white;
+  min-height: 100vh;
+}
+
+.back-button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: grey;
+}
